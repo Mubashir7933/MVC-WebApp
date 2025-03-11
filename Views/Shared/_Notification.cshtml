@@ -1,6 +1,23 @@
-@if(TempData["Success"]!=null){
-    <h2>@TempData["Sucesss"]</h2>
-}
-@if(TempData["Error"]!=null){
-    <h2>@TempData["Error"]</h2>
-}
+<script>
+    $(document).ready(function () {
+        @if (TempData["Success"] != null)
+        {
+            <text>toastr.success('@TempData["Success"]');</text>
+        }
+
+        @if (TempData["Error"] != null)
+        {
+            <text>toastr.error('@TempData["Error"]');</text>
+        }
+
+        @if (TempData["Warning"] != null)
+        {
+            <text>toastr.warning('@TempData["Warning"]');</text>
+        }
+
+        @if (TempData["Info"] != null)
+        {
+            <text>toastr.info('@TempData["Info"]');</text>
+        }
+    });
+</script>

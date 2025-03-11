@@ -32,9 +32,10 @@ namespace MyApp.Namespace
             if(ModelState.IsValid){
             _db.Categories.Add(obj);
             _db.SaveChanges();
-            TempData["success"] = "Category Created Successfully";
+            TempData["Success"] = "Category Created Successfully";
             return RedirectToAction ("Index","Category");
             }
+              TempData["Error"] = "Failed to create category.";
             return View();
         }
         public IActionResult Edit(int? id)
@@ -56,9 +57,10 @@ namespace MyApp.Namespace
 
             _db.Categories.Update(obj);
             _db.SaveChanges();
-            TempData["success"] = "Category Updated Successfully";
+            TempData["Success"] = "Category Updated Successfully";
             return RedirectToAction ("Index");
             }
+             TempData["Error"] = "Failed to update category.";
             return View();
         }
         public IActionResult Delete(int? id)
@@ -83,7 +85,7 @@ namespace MyApp.Namespace
                 }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
-            TempData["success"] = "Category Deleted Successfully";
+               TempData["Success"] = "Category deleted successfully!";
             return RedirectToAction ("Index");
             
         }
