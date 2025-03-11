@@ -1,7 +1,33 @@
+using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+using MyWebApp.Data;
+using Npgsql;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Registering the database context
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));  
+
+
+var connectionString =  builder.Configuration.GetConnectionString("DefaultConnection");
+
+// try {
+//     using (var connection = new NpgsqlConnection(connectionString))
+//     {
+//         connection.Open();
+//         Console.WriteLine("Connection Open");
+//     }
+//     }
+//     catch (NpgsqlException ex)
+//     {
+//         Console.WriteLine(ex.Message);
+//     }
 
 var app = builder.Build();
 
@@ -27,3 +53,6 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+
+

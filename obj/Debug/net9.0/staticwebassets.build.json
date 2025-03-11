@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "89Gxx5Fsh8bdVAUwTLVrK1utwiW2gL2Qx4yA7fQRWgg=",
+  "Hash": "RYq85KmAoLOlT5Yl1gV2b7McT0TRvxuKBinXKu5MA5Y=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -500,12 +500,12 @@
       "OriginalItemSpec": "C:\\Users\\mubas\\Desktop\\MyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-s35ty4nyc5.gz",
+      "Identity": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-xcntcb1nvg.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint=s35ty4nyc5}]?.css.gz",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint=xcntcb1nvg}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -514,8 +514,8 @@
       "RelatedAsset": "C:\\Users\\mubas\\Desktop\\MyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jw1qs72mo9",
-      "Integrity": "I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU=",
+      "Fingerprint": "rwsi4qh1pc",
+      "Integrity": "JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mubas\\Desktop\\MyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s35ty4nyc5",
-      "Integrity": "GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=",
+      "Fingerprint": "xcntcb1nvg",
+      "Integrity": "f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -10775,12 +10775,12 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-s35ty4nyc5.gz",
+      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-xcntcb1nvg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000030073379"
+          "Quality": "0.000030096006"
         }
       ],
       "ResponseHeaders": [
@@ -10790,15 +10790,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33251"
+          "Value": "33226"
         },
         {
           "Name": "ETag",
-          "Value": "\"I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU=\""
+          "Value": "\"JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10818,13 +10818,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "W/\"f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw="
         }
       ]
     },
@@ -10839,7 +10839,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "281046"
+          "Value": "272994"
         },
         {
           "Name": "Content-Type",
@@ -10847,11 +10847,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "\"f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10861,13 +10861,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.gz",
-      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-s35ty4nyc5.gz",
+      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-xcntcb1nvg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10876,7 +10876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33251"
+          "Value": "33226"
         },
         {
           "Name": "Content-Type",
@@ -10884,11 +10884,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU=\""
+          "Value": "\"JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10906,7 +10906,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU="
+          "Value": "sha256-JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U="
         }
       ]
     },
@@ -11233,7 +11233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11294,7 +11294,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11339,7 +11339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11394,7 +11394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11447,7 +11447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11484,7 +11484,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12997,13 +12997,13 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-s35ty4nyc5.gz",
+      "Route": "lib/bootstrap/dist/css/bootstrap.xcntcb1nvg.css",
+      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-xcntcb1nvg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000030073379"
+          "Quality": "0.000030096006"
         }
       ],
       "ResponseHeaders": [
@@ -13013,15 +13013,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33251"
+          "Value": "33226"
         },
         {
           "Name": "ETag",
-          "Value": "\"I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU=\""
+          "Value": "\"JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13041,13 +13041,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "W/\"f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
+          "Value": "xcntcb1nvg"
         },
         {
           "Name": "label",
@@ -13055,12 +13055,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.xcntcb1nvg.css",
       "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13070,7 +13070,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "281046"
+          "Value": "272994"
         },
         {
           "Name": "Content-Type",
@@ -13078,11 +13078,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "\"f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13092,7 +13092,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
+          "Value": "xcntcb1nvg"
         },
         {
           "Name": "label",
@@ -13100,13 +13100,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-f3w85mKttO7u3ep9rXN5W86CJ2us80gJM3G4lwV5kvw="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css.gz",
-      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-s35ty4nyc5.gz",
+      "Route": "lib/bootstrap/dist/css/bootstrap.xcntcb1nvg.css.gz",
+      "AssetFile": "C:\\Users\\mubas\\Desktop\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\c211di9rx2-xcntcb1nvg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13115,7 +13115,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33251"
+          "Value": "33226"
         },
         {
           "Name": "Content-Type",
@@ -13123,11 +13123,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU=\""
+          "Value": "\"JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 13:01:23 GMT"
+          "Value": "Thu, 06 Mar 2025 05:38:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13145,7 +13145,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
+          "Value": "xcntcb1nvg"
         },
         {
           "Name": "label",
@@ -13153,7 +13153,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-I0QuKxdK89NxyamT6EeIfl/MyifdDw+D8cUjkiXwoOU="
+          "Value": "sha256-JSEAK+6O7nGxsxZmK0WgVb+4NktaclnU06MYguR+Y/U="
         }
       ]
     },
