@@ -1,31 +1,98 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mubas\\Desktop\\.NETAPP\\MyWebApp\\MyWebApp.csproj": {}
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mubas\\Desktop\\.NETAPP\\MyWebApp\\MyWebApp.csproj": {
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\MyWebApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\.NETAPP\\MyWebApp\\MyWebApp.csproj",
-        "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\mubas\\Desktop\\.NETAPP\\MyWebApp\\MyWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\MyWebApp.DataAccess.csproj",
+        "projectName": "MyWebApp.DataAccess",
+        "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\MyWebApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mubas\\Desktop\\.NETAPP\\MyWebApp\\obj\\",
+        "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj": {
+                "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj",
+        "projectName": "MyWebApp.Models",
+        "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj",
+        "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,10 +116,76 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj",
+        "projectName": "MyWebApp",
+        "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj",
+        "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\MyWebApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.DataAccess\\MyWebApp.DataAccess.csproj"
+              },
+              "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj": {
+                "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.Models\\MyWebApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -62,7 +195,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -84,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

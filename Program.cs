@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
-using MyWebApp.Data;
+using MyWebApp.DataAccess.Data;
 using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
