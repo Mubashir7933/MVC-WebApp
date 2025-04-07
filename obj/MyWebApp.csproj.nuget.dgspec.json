@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
@@ -88,6 +89,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
+        "projectName": "MyWebApp",
+        "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
+        "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 8145399d84cad2869812054aa47e5bd6172fdf14
         ],
         "originalTargetFrameworks": [
           "net9.0"

@@ -1045,11 +1045,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj",
       "projectName": "MyWebApp",
       "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj",
       "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
+      "projectName": "MyWebApp",
+      "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
+      "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\obj\\",
+>>>>>>> 8145399d84cad2869812054aa47e5bd6172fdf14
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
