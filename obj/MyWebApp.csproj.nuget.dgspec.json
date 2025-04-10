@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
@@ -53,6 +52,20 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -89,22 +102,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
-        "projectName": "MyWebApp",
-        "projectPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\MyWebApp.csproj",
-        "packagesPath": "C:\\Users\\mubas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mubas\\Desktop\\MVC-WebApp\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\mubas\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 8145399d84cad2869812054aa47e5bd6172fdf14
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -208,7 +205,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[9.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

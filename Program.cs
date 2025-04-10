@@ -4,20 +4,19 @@ using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using MyWebApp.DataAccess.Data;
 using Npgsql;
+using MyWebApp.DataAccess.Repositories.IRepository;
+using MyWebApp.DataAccess.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//Registering the database context
+// Configure DbContext with PostgreSQL provider
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));  
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-var connectionString =  builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // try {
 //     using (var connection = new NpgsqlConnection(connectionString))
@@ -31,6 +30,8 @@ var connectionString =  builder.Configuration.GetConnectionString("DefaultConnec
 //         Console.WriteLine(ex.Message);
 //     }
 
+//@2builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -51,7 +52,6 @@ app.MapStaticAssets();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-   // .WithStaticAssets();
 
 app.Run();
 
